@@ -1,28 +1,3 @@
-'''file = open('purchases.txt')
-content = file.readline()
-print(content)
-#file.close()
-content = content.split(';')
-print(content)
-meal = {
-    'date' : content[0],
-    'category' : content[1],
-    'name' : content[2],
-    'price': content[3],
-    'quantity' : content[4]
-}
-print(meal)
-for i in file.readlines():
-    i = i.split(';')
-    meal = {
-        'date': i[0],
-        'category': i[1],
-        'name': i[2],
-        'price': i[3],
-        'quantity': i[4]
-    }
-    print(meal)'''
-
 import sys
 from purchase_analyzer import (
     read_purchases,
